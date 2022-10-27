@@ -31,7 +31,7 @@ int main() {
   // Assigns the pointer to allocated memory for 5 int objects
   memory = (int*)malloc(5 * sizeof(int));
 
-	// If we get a null pointer, we ran out of memory
+  // If we get a null pointer, we ran out of memory
   if (memory == NULL) {
     return 1;
   }

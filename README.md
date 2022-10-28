@@ -3,10 +3,10 @@
 ## Purpose
 This exercise is designed to cover various aspects of memory in C/C++: the `new` and `delete` keywords, pointers, and how to manipulate memory. Please ensure that all your answers to questions in these exercises are done on the Edlab environment – otherwise, they may be inconsistent results and will not receive points. Please read through this document and follow the instructions. After you do that, visit Gradescope and complete the questions associated with this exercise by the assigned due date.
 
-##Setup
+## Setup
 Once you have logged in to Edlab, you can clone this repo using
 ```
-https://github.com/umass-cs-377/F22-377-exercise-memory-allocation
+git clone https://github.com/umass-cs-377/F22-377-exercise-memory-allocation
 ```
 Then you can use cd to open the directory you just cloned:
 ```

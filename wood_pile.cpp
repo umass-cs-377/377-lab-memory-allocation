@@ -22,8 +22,11 @@ public:
 
 int main() {
 
-  char *msg = new char[] {"Welcome to the lab about memory"};
-  int *hidden = new int[] {1915184471, 1634213989, 1735289206, 1853187616,
+  const char *s = "Welcome to the lab about memory";
+  char *msg = new char[32];
+  strcpy(msg, s);
+
+  int *hidden = new int[32] {1915184471, 1634213989, 1735289206, 1853187616,
                            1953068832, 1869619304, 1702129257, 555840370};
   Wood *pile = new Wood[8] {{1952871013, 1949656166}, {1936486508, 1869049199},
                             {1780507759, 846226031}, {862285153, 7037810}};

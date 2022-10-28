@@ -88,8 +88,7 @@ int main() {
   cout << "The 6'th piece of wood has a len of " << (pile+5)->len << endl;
   cout << "The 6'th piece of wood has a len of " << (*(pile+5)).len << endl;
   
-  // Code goes here
-  
+
   delete[] msg;
   delete[] hidden;
   delete[] pile;

@@ -9,6 +9,9 @@ CPPFLAGS += -isystem src -std=c++11
 wood_pile: wood_pile.o
 	$(CXX) -o $@ $^
 
+allocate: allocate.o
+	$(CXX) -o $@ $^
+
 clean:
 	rm -f *~ *.o
 	rm -f wood_pile

@@ -6,11 +6,11 @@ This exercise is designed to cover various aspects of memory in C/C++: the `new`
 ## Setup
 Once you have logged in to Edlab, you can clone this repo using
 ```
-git clone https://github.com/umass-cs-377/F22-377-exercise-memory-allocation
+git clone https://github.com/umass-cs-377/377-lab-memory-allocation
 ```
 Then you can use cd to open the directory you just cloned:
 ```
-cd F22-377-memory-allocation
+cd 377-lab-memory-allocation
 ```
 This repository includes a Makefile that allows you to locally compile and run all the sample code listed in this tutorial. You can compile them by running make. Feel free to modify the source files yourself. After making changes, you need to run `make` again to build new binaries from your modified files. You can also use `make clean` to remove all the built files, this command is usually used when something goes wrong during the compilation so that you can start fresh.
 

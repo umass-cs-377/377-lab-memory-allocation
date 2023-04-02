@@ -73,7 +73,7 @@ public:
     int len;
 
     // constructer 
-    Wood(double _weight = 4, double _len = 5) {
+    Wood(int _weight = 4, int _len = 5) {
         weight = _weight;
         len = _len;
     }
